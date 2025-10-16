@@ -1,0 +1,2 @@
+To setup simulation:
+  https://github.com/Intelligent-Quads/iq_sim/blob/master/docs/boat_setup.md
