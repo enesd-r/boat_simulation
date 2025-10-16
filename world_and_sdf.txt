@@ -1,0 +1,5 @@
+To access the sdf file:
+  gedit ~/catkin_ws/src/iq_sim/models/boat/boat.sdf
+
+To access the world file:
+  gedit ~/catkin_ws/src/iq_sim/worlds/boat.world
