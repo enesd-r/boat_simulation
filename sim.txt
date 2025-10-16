@@ -1,0 +1,18 @@
+First terminal:
+  roslaunch iq_sim boat.launch
+
+Second terminal:
+  sim_vehicle.py -v APMrover2 -f gazebo-rover  -m --mav10 --console -L Viridian
+
+On the first run, run the below in the mavproxy terminal:
+  param load catkin_ws/src/iq_sim/scripts/ardu-parms/gazebo-boat.parm 
+  output add 127.0.0.1:14555
+  param set WP_SPEED 1
+
+Third terminal:
+  roslaunch iq_sim apm.launch
+
+
+
+
+
